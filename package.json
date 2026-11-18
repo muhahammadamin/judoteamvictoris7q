@@ -1,0 +1,16 @@
+{
+  "name": "team-victoris",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "description": "TEAM VICTORIS — сайт клуба дзюдо: Vue 3 + Node.js, админ-панель",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node backend/server.js",
+    "reset-password": "node backend/reset-password.js",
+    "dev:backend": "node --watch backend/server.js",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "install:all": "npm --prefix frontend install",
+    "build": "npm --prefix frontend run build"
+  }
+}
